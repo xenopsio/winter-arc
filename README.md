@@ -6,7 +6,7 @@ The main idea is simple:
 
 Study → Understand → Document → Archive
 
-I don't want this to be a collection of random notes or AI-generated stuff. It's here to show my actual progress over time, including things I struggled with, mistakes I made, things I learned, and what I can eventually do on my own.
+It's here to show my actual progress over time, including things I struggled with, mistakes I made, things I learned, and what I can eventually do on my own.
 
 What's in here
 logs/
