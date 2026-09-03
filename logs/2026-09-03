@@ -1,0 +1,60 @@
+## Log
+
+### 3 September 2026 (Thursday) Arc
+
+**Done**
+
+- PCC 23min
+- ESE 56min
+- Linux 18m
+
+**In Progress**
+
+- 
+
+**Learned / Notes**
+
+- PCC:
+    - Learned how `.reverse()` works. As the name says, it reverses the order of the items in a list.
+    - Learned that we can change the content of a list by pointing towards a specific item using its index.
+    - Practiced using variables, list indexes, `.title()` and f-strings together in one script.
+- ESE:
+    - Added `error_handling()` to my code.
+    - Learned what error handling is used for in ESE. Its purpose is to handle errors and create a short report showing which clients received the mail successfully and which ones didn't.
+    - The error handlers I used are `try` and `except`, which I find pretty simple and useful.
+    - Learned the purpose of `__init__()`, `connect()`, `error_handling()` and `disconnect()` inside the `CampaignEngine` class.
+    - Learned the current flow of the ESE: connect → TLS → login → send → error handling → disconnect.
+    - Learned how a class can keep the different parts of the ESE organised instead of having everything written separately.
+    - `__init__()` is used to initialise the starting values of the object.
+    - `connect()` creates the SMTP connection, starts TLS, logs into the server and currently sends the mail.
+    - `error_handling()` is where I started working on handling failed/successful mail operations.
+    - `disconnect()` closes the SMTP connection using `quit()`.
+- Linux:
+    - Learned that we can use the `man` command to read the manual page of a command and learn how it works.
+    - Most Linux commands have man pages, but if a command doesn't have one, we can look up its documentation elsewhere.
+    - Learned about `crontab` and how it is used to schedule commands.
+    - If `/etc/cron.allow` exists, users who want to use `crontab` must be listed in it, with each user on a separate line.
+    - `crontab -e` can be used to open and edit the user's crontab and select an editor.
+    - The crontab editor also contains instructions about how to create entries, and more information can be found with the manual pages for `crontab` and `cron`.
+    - Learned the basic structure of a cron entry: **minutes → hours → day of month → month → day of week → command**.
+    - Example: `0 20 * * 2 ~/script.sh` runs the script every Tuesday at 8 PM.
+    
+- **Blockers**
+    
+    
+
+**Next**
+
+- [ ]  Natas 25–30m
+- [x]  Python PCC (Python Crash Course 3e) 40–45m
+- [x]  Programming/ESE 45–60 min
+- [x]  Linux 20–30m
+- [ ]  THM / HTB / foundations 20–30m https://github.com/uttambodara/TryHackMeRoadmap#linux-fundamentals
+
+### Independent / Assisted
+
+- [x]  Independent (Solved Myself) PCC
+- [x]  Assisted (Needed a hint or external information) —  ESE, Linux
+- [ ]  Walkthrough (Needed the actual solution)
+
+---
